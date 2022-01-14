@@ -1,0 +1,56 @@
+@import "common";
+header{
+    margin-bottom: 17px;
+}
+ul{
+    .frast{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #d4d4d6;
+        margin: 8px 16px 0;
+        figure{
+            height: 100%;
+            width: 50px;
+        }
+        p{
+            font-size: 1.5rem;
+            margin-left: 16px;
+            margin-right: auto;
+        }
+        .followB{
+            width: 97px;
+            height: 30px;
+            color: #b6c0cc;
+            background-color: #ffffff;
+            border: solid 1px #b6c0cc;
+            border-radius: 5px;
+        }
+}
+    li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #d4d4d6;
+            margin: 8px 16px 0;
+            figure{
+                height: 100%;
+                width: 50px;
+            }
+            p{
+                font-size: 1.5rem;
+                margin-left: 16px;
+                margin-right: auto;
+            }
+            .followB{
+                width: 97px;
+                height: 30px;
+                color: #ffffff;
+                background-color: #b6c0cc;
+                border-radius: 5px;
+            }
+    }
+    li:last-child{
+        border-bottom: none;
+    }
+}
