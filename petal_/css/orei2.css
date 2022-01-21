@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  height: 38px;
+  padding-top: 8px;
+  font-size: 1.6rem;
+}
+header .status {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .status .ham {
+  height: 100%;
+  width: 30px;
+  margin-left: 16px;
+}
+header .status .title {
+  width: 80vw;
+  min-width: 64px;
+  line-height: 1.8em;
+  text-align: center;
+}
+header .status .icon {
+  margin-right: 16px;
+  width: 30px;
+}
+
+.footer {
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+}
+header {
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #F4F6F8;
+}
+
+main {
+  padding: 0 16px;
+}
+
+.chatAll {
+  width: 343px;
+  margin: 0 auto;
+}
+
+.chatWrap {
+  display: flex;
+  margin-top: 16px;
+}
+.chatWrap:last-child {
+  flex-direction: row-reverse;
+}
+.chatWrap .back {
+  background-color: #ffffff;
+  padding: 16px 16px 28px 16px;
+  width: 295px;
+  height: 340px;
+  border-radius: 4px;
+}
+.chatWrap .back .Box .time {
+  font-size: 1.4rem;
+  color: #c4c4c4;
+}
+.chatWrap .back .Box .text {
+  font-size: 1.4rem;
+}
+.chatWrap .back .Box .main {
+  display: flex;
+  margin-top: 22px;
+}
+.chatWrap .back .Box .main .Img {
+  flex-shrink: 0;
+  width: 127px;
+  height: 115px;
+}
+.chatWrap .back .Box .main .Img:last-child {
+  margin-left: 9px;
+}
+.chatWrap .back .Box .main .mainImg {
+  width: 100%;
+  height: 100%;
+}
+.chatWrap .icon1 {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+}
+.chatWrap .icon1 img {
+  width: 100%;
+  height: 100%;
+}
+.chatWrap .icon2 {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+.chatWrap .icon2 img {
+  width: 100%;
+  height: 100%;
+}
